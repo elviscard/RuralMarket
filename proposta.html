@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rural Market - Planos</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<style>
+    .service-item-1 {
+      display: flex;
+      flex-direction: column;
+      min-height: 50px; /* Defina a altura mínima desejada */
+      justify-content: space-between; /* Alinhar os elementos verticalmente */
+      /*border: 1px solid #333333; /* Adicione a borda aqui */
+    }
+
+    .service-item-2 {
+      display: flex;
+      flex-direction: column;
+      min-height: 500px; /* Defina a altura mínima desejada */
+      justify-content: flex-start; /* space-betwee Alinhar os elementos verticalmente */
+      /*border: 1px solid #333333; /* Adicione a borda aqui */
+      transition: background-color 0.3s; /* Adicione uma transição suave de cor de fundo */
+      background-color: #EFFDF5; /* Cor de fundo padrão */
+    }
+
+    /* Quando o mouse passar por cima da seção, mude a cor de fundo */
+    .service-item-2:hover {
+      background-color: #FFFFFF; /* Cor de fundo quando o mouse passa por cima */
+    }
+
+
+    .service-item-3 {
+      display: flex;
+      flex-direction: column;
+      min-height: 0px; /* Defina a altura mínima desejada */
+      justify-content: flex-start; /* Alinhar os elementos verticalmente */
+      /*border: 1px solid #333333; /* Adicione a borda aqui */
+    }
+    
+  </style>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="m-0 text-primary">Rural Market</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="EmDesenvolvimento.html" class="nav-item nav-link">Sobre</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Propriedade</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="EmDesenvolvimento.html" class="dropdown-item">Por lista</a>
+                                <a href="EmDesenvolvimento.html" class="dropdown-item">Por tipo</a>
+                                <a href="EmDesenvolvimento.html" class="dropdown-item">Por Localidade</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="EmDesenvolvimento.html" class="dropdown-item">Testemunho</a>
+                                <a href="EmDesenvolvimento.html" class="dropdown-item">Outros</a>
+                            </div>
+                        </div>
+                        <a href="EmDesenvolvimento.html" class="nav-item nav-link">Contato</a>
+                    </div>
+                    <a href="login_cadastro.html" class="btn btn-primary px-3 d-none d-lg-flex">Adicionar propriedade</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+<!-- Header Start -->
+<div class="container-fluid header bg-white p-0">
+    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 p-5 mt-lg-5">
+            <h1 class="display-5 animated fadeIn mb-4">Rural Market:<span class="text-primary"> O plano certo para o seu objetivo</span></h1>
+            <br>
+            <p class="service-text text-custom">
+
+                A Rural Market é uma plataforma online para compra e venda de imóveis rurais. 
+                A empresa oferece três planos de assinatura com diferentes períodos de exposição 
+                para os anúncios. O plano Premium Pro é exclusivo para corretores.
+
+        </div>
+        <div class="col-md-6 animated fadeIn">
+            <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+      <section class="container-xxl py-5 text-custom">
+          <div class="container">
+              <h1 class="text-center mb-5 text-custom">Nossos Planos</h1>
+              <div class="row g-5">
+                  <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                      <div class="service-item-1 text-center position-relative rounded overflow-hidden">
+                          <img class="img-fluid" src="img/service-1.jpg" alt="">
+                          <div class="service-overlay">
+                              <h2 class="service-title text-custom">Flex</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                      <div class="service-item-1 text-center position-relative rounded overflow-hidden">
+                          <img class="img-fluid" src="img/service-2.jpg" alt="">
+                          <div class="service-overlay">
+                              <h2 class ="service-title text-custom">Standard</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 wow fadeIn" data-wow-delay="0.9s">
+                      <div class="service-item-1 text-center position-relative rounded overflow-hidden">
+                          <img class="img-fluid" src="img/service-3.jpg" alt="">
+                          <div class="service-overlay">
+                              <h2 class="service-title text-custom">Premium</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 wow fadeIn" data-wow-delay="1.3s">
+                      <div class="service-item-1 text-center position-relative rounded overflow-hidden">
+                          <img class="img-fluid" src="img/service-3.jpg" alt="">
+                          <div class="service-overlay">
+                              <h2 class="service-title text-custom">Premium Pro</h2>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="container-xxl py-5 text-custom" style="margin-top: -90px;">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item-2 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="service-overlay">
+                            <p class="service-text text-custom">
+                                Apresentamos o nosso excepcional Plano Flex, uma opção flexível e conveniente que oferece a 
+                                você a oportunidade de manter o seu anúncio em destaque por um total de 45 dias corridos. 
+                                <br><br><strong><span class="text-primary">POR APENAS 3 PARCELAS DE R$ 40,00, </span></strong> você garante 
+                                visibilidade prolongada e um aumento significativo na exposição do seu anúncio. <br><br>
+                                Escolha perfeita: ótima relação custo-benefício, maior alcance, destaque para seu produto com o Plano Flex. 
+                                Não perca!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item-2 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="service-overlay">
+                            <p class="service-text text-custom">Apresentamos o nosso abrangente Plano Standard, 
+                                uma escolha excepcional para quem deseja uma exposição prolongada e eficaz para 
+                                seus anúncios. 
+                                <br><br><strong><span class="text-primary">COM ESTE PLANO, VOCÊ PODE MANTER SEU 
+                                ANÚNCIO EM DESTAQUE POR UM TOTAL DE 90 DIAS CORRIDOS, TUDO ISSO POR APENAS 6 PARCELAS 
+                                DE R$ 40,00.</span></strong>
+                                <br><br>
+                                Com o Plano Standard, promova seus produtos por mais tempo, ampliando sua visibilidade 
+                                com excelente custo-benefício.
+                                </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.9s">
+                    <div class="service-item-2 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-overlay">
+                            <p class="service-text text-custom">Apresentamos o nosso <br><br><strong><span class="text-primary">PLANO PREMIUM ANUAL, 
+                                OFERECENDO DUAS OPÇÕES INCRÍVEIS: 10 PARCELAS DE R$ 40 OU PAGAMENTO À VISTA POR R$ 350. COM 
+                                ESSE PLANO, VOCÊ GARANTE UMA EXPOSIÇÃO EXCEPCIONAL DE 200 DIAS PARA ATÉ 3 ANÚNCIOS DIFERENTES. 
+                            </span></strong> <br><br>Esta é a escolha ideal para quem busca maximizar 
+                                a visibilidade e resultados de suas ofertas. Não perca a oportunidade de destacar 
+                                o que você tem de melhor com o Plano Premium!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="1.3s">
+                    <div class="service-item-2 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-overlay"> 
+                            <p class="service-text text-custom"><strong><span class="text-primary">EXCLUSIVO PARA CORRETORES</span></strong> <br>
+                                Oferecemos o Plano Premium Pro, especialmente projetado para corretores que buscam destacar suas ofertas 
+                                imobiliárias. 
+                                <strong><span class="text-primary"><br><br>COM ESTE PLANO ANUAL, VOCÊ TERÁ:</span></strong><br>
+                                <strong><span class="text-primary">R$1.000 À VISTA OU 12x R$120</span></strong><br>
+                                <strong><span class="text-primary">14 ANÚNCIO DIFERENTES DURANTE 12 MESES </span></strong><br>
+                                <strong><span class="text-primary">EXPOSIÇÃO PROLONGADA E VISIBILIDADE EXCLUSIVA</span></strong><br><br>
+                                Destaque-se no mercado imobiliário com o Plano Premium Pro Exclusivo para Corretores e alcance o sucesso desejado!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container-xxl py-5 text-custom" style="margin-top: -99px;">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item-3 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="service-overlay-x">
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="#">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item-3 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="service-overlay-x">
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="#">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.9s">
+                    <div class="service-item-3 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-overlay-x">
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="#">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="1.3s">
+                    <div class="service-item-3 text-center position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-overlay-x">
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="#">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Nosso contato</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Faria Lima, 000, São Paulo, SP</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>011 90000 0000</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>comercial@comercial.com.br</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Acesse</h5>
+                    <a class="btn btn-link text-white-50" href="">Sobre nós</a>
+                    <a class="btn btn-link text-white-50" href="">Contato</a>
+                    <a class="btn btn-link text-white-50" href="">Nosso Serviço</a>
+                    <a class="btn btn-link text-white-50" href="">Política de Privacidade</a>
+                    <a class="btn btn-link text-white-50" href="">Termos e Condições</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Fotos da Galeria</h5>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Cadastre aqui o seu e-mail para receber informações.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu e-mail">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Inscrever-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Projeto Rural Market</a>, Todos os direitos reservados. 
+                        
+                        <!--/Este site esta em desenvolvimento pelo Elvis e Andrei/-->
+                        Elaborado por <a class="border-bottom">Elvis e Andrei</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Ajuda</a>
+                            <a href="">Políticas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
